@@ -1,0 +1,25 @@
+.button {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  transition: all 0.15s ease;
+  background-color: $btn-primary-bg;
+  padding: map-get($map: $spacing, $key: "xs");
+
+  &__wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: map-get($map: $spacing, $key: "xxxs");
+
+    &-label {
+        font-size: $fs-base;
+    }
+  }
+
+  &:hover {
+    background-color: $btn-primary-bg-hover;
+  }
+}

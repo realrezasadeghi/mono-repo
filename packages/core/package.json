@@ -1,0 +1,12 @@
+{
+  "name": "@reza/core",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "./src/index.ts",
+  "dependencies": {
+    "typescript": "^5.0.4"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}

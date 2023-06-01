@@ -1,0 +1,31 @@
+.board-list {
+  width: 100%;
+  height: 100%;
+
+  &__wrapper {
+    list-style-type: none;
+  }
+
+  &__item {
+    border-bottom: 1px solid #eee;
+    margin-block: map-get($map: $spacing, $key: "xxs");
+
+    &-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  &__comments {
+    display: flex;
+    list-style-type: none;
+    background-color: $gray;
+    gap: map-get($map: $spacing, $key: "xs");
+    padding: map-get($map: $spacing, $key: "xxxs");
+
+    &-item {
+        margin: 10px;
+    }
+  }
+}

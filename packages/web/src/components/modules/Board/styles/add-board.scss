@@ -1,0 +1,5 @@
+.add-board {
+  display: flex;
+  align-items: center;
+  gap: map-get($map: $spacing, $key: "xxs");
+}

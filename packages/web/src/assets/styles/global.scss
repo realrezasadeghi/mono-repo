@@ -1,0 +1,28 @@
+/*=============================================
+=                Foundation Import            =
+=============================================*/
+
+@import "foundation/all";
+
+/*=============================================
+=                Base Import                  =
+=============================================*/
+
+@import "base/root";
+
+/*=============================================
+=                Global Style                 =
+=============================================*/
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: $body-font-size;
+  font-family: $body-font-family;
+  font-weight: $body-font-weight;
+}
+
+* {
+  box-sizing: border-box;
+}

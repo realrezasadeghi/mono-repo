@@ -1,0 +1,12 @@
+.board-content {
+  display: flex;
+  flex-direction: column;
+  gap: map-get($map: $spacing, $key: "xxs");
+  padding: map-get($map: $spacing, $key: "xs");
+
+  &__title {
+    color: $gray;
+    font-size: $fs-lg;
+    font-weight: $fw-light;
+  }
+}

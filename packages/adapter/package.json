@@ -1,0 +1,13 @@
+{
+  "name": "@reza/adapter",
+  "version": "1.0.0",
+  "main": "./src/index.ts",
+  "license": "MIT",
+  "dependencies": {
+    "@reza/core": "^1.0.0",
+    "typescript": "^5.0.4"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
